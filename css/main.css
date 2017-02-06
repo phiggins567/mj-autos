@@ -95,7 +95,7 @@ footer small {
   padding: 20px;
 }
 header {
-  margin-top: auto;
+  margin-top: 45px;
 }
 .mySlides {
   display: none;
@@ -166,6 +166,10 @@ ul.topnav li.icon {display: none;}
   .main {
     height: auto;
   }
+  header img {
+    height: 200px;
+  }
+  
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
     float: right;
