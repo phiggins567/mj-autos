@@ -14,7 +14,6 @@ function initMap() {
     fontSize: 35,
   });
 }
-
 var slideIndex = 0;
 showSlides();
 
@@ -28,18 +27,16 @@ function showSlides() {
   if (slideIndex > slides.length) {
     slideIndex = 1
   }
-
   slides[slideIndex - 1].style.display = "block";
-
   setTimeout(showSlides, 6000);
 }
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+function navigation() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
 }
