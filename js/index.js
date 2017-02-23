@@ -31,7 +31,7 @@ function showSlides() {
   setTimeout(showSlides, 6000);
 }
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+
 function navigation() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -40,3 +40,5 @@ function navigation() {
     x.className = "topnav";
   }
 }
+
+document.addEventListener("click", navigation() );
