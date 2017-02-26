@@ -139,7 +139,7 @@ footer small {
     flex: 1 auto;
   }
   .main {
-    height: auto;
+    height: auto !important;
   }
   header img {
     height: 200px;
