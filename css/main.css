@@ -105,9 +105,6 @@ footer small {
   display: block;
   width: 100%;
 }
-.active {
-  background-color: #cc0000;
-}
 
 .fade {
   -webkit-animation-name: fade;
@@ -141,8 +138,11 @@ footer small {
   .main {
     height: auto !important;
   }
-  header img {
+  .headerImg {
+    margin-top: 55px;
+    width: 100%;
+  }
+  .mySlides img {
     height: 200px;
   }
-
 }
