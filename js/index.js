@@ -40,5 +40,3 @@ function navigation() {
     x.className = "topnav";
   }
 }
-
-document.addEventListener("click", navigation() );
