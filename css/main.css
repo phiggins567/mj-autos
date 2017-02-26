@@ -40,6 +40,9 @@ h3 {
   -moz-box-shadow: 0px 7px 5px -5px rgba(199, 197, 199, 0.75);
   box-shadow: 0px 7px 5px -5px rgba(199, 197, 199, 0.7);
 }
+.main:first-of-type {
+  height: 250px;
+}
 
 .main ul {
   list-style: none;
