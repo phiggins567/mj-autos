@@ -136,7 +136,7 @@ footer small {
 
 @media screen and (max-width:680px) {
   aside {
-    flex: 1 auto;
+    flex: auto;
   }
   .main {
     height: auto !important;

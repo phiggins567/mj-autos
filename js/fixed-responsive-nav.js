@@ -24,6 +24,12 @@
       }
     };
 
+    // Attach FastClick to remove the 300ms tap delay
+    FastClick.attach(document.body);
+
+    // Init smooth scrolling
+    smoothScroll.init();
+
     // Init Responsive Nav
     var navigation = responsiveNav(".nav-collapse", {
 
@@ -55,7 +61,7 @@
       content = [];
       forEach(links, function (i, el) {
         var href = links[i].getAttribute("href").replace("#", "");
-
+        content.push(document.getElementById(href).offsetTop + 200);
       });
     };
 
