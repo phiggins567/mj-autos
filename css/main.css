@@ -94,8 +94,11 @@ footer {
 footer small {
   padding: 20px;
 }
-.headerImg, main, aside {
-  margin-top: 55px;
+.headerImg {
+  margin-top: 57px;
+}
+.main, .wrapper {
+  padding-top: 60px;
 }
 .mySlides {
   display: none;
@@ -139,7 +142,6 @@ footer small {
     height: auto !important;
   }
   .headerImg {
-    margin-top: 55px;
     width: 100%;
   }
   .mySlides img {
